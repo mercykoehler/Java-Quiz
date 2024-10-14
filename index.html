@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>What famous baby animal are you?</title>
+
+<!--GOOGLE FONTS-->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+ 
+<!--CUSTOM CSS-->
+
+<style> 
+	body {
+background-color: lightblue !important;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin-bottom: 20px;
+padding: 10px;
+background-color: lavender;
+font-family: "Pacifico", cursive;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border-radius: 10px;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("header.jpg");
+height: 300px;
+color: white;
+font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  #answer2 {
+  	display: none;
+  }
+
+h4 {
+	display: block;
+}
+.center {
+	text-align: center;
+	margin-top: 90px;
+}
+
+.container {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.row {
+	display: flex;
+}
+
+.button {
+	padding: 10px;
+	width: 100px;
+}
+
+.submit {
+	text-align: center;
+}
+
+
+</style>
+
+<!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">  
+
+</head>
+<!--HEAD CLOSE-->
+
+
+<!--BODY OPEN-->
+<body>
+	<br>
+
+<div class="container-fluid"> <!--OPEN CONTAINER DIV-->
+<div id=header class="img-fluid"> <!--OPEN HEADER DIV-->
+	<div class="row"> <!--OPEN ROW DIV-->
+<h1 class="center">Which famous baby animal are you?</h1>
+</div> <!--CLOSE ROW DIV-->
+</div> <!--CLOSE HEADER DIV-->
+</div> <!--CLOSE CONTAINER DIV-->
+
+<br>
+
+<div id="main" class="container-fluid">
+	<div id="row">
+<p> Have you ever wondered which viral baby animal you are? Oh... you haven't? That's just me? No worries. Well you should take this quiz anyway! Answer these questions as honestly as you can in order to determine which animal best matches your personality! Good luck!</p>
+</div>
+</div>
+
+
+
+<form id="form1"><!--OPENING FORM TAG-->
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 1-->
+<h3> 1# How would you describe your perfect day?</h3>
+<div class="row"><!--OPENING ROW 1-->
+
+
+<!--BEGINNING BULLET POINTS--><!--ALL VALUES SET TO 0 FOR NOW-->
+	<div class="col-md-3">
+	<label for="day_treasure">Searching for treasure<input class="button" type="radio" name="day" value="30" id="day_treasure" /></label>
+</div>
+
+<div class="col-md-3">
+		<label for="day_nap">Taking a long nap<input class="button" type="radio" name="day" value="20" id="day_nap" /></label>
+</div>
+
+<div class="col-md-3">
+		<label for="day_chaos">Causing chaos<input class="button" type="radio" name="day" value="5" id="day_chaos" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="day_sledding">Going sledding<input class="button" type="radio" name="day" value="10" id="day_sledding" /></label>
+</div>
+
+
+</div><!--CLOSING ROW 1-->
+</div> <!--CLOSING CONTAINER DIV 1-->
+
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 2-->
+<h3> 2# What is your worst fear?</h3>
+<div class="row"><!--OPENING ROW 2-->
+
+
+<!--BEGINNING BULLET POINTS-->
+<div class="col-md-3">
+		<label for="fear_hot">Hot weather<input class="button" type="radio" name="fear" value="10" id="fear_hot" /></label>
+</div>
+
+<div class="col-md-3">
+		<label for="fear_food">Not having food<input class="button" type="radio" name="fear" value="30" id="fear_food" /></label>
+</div>
+
+<div class="col-md-3">
+		<label for="fear_alone">Being alone<input class="button" type="radio" name="fear" value="20" id="fear_alone" /></label>
+</div>
+
+<div class="col-md-3">
+		<label for="fear_work">Working a 9-5<input class="button" type="radio" name="fear" value="5" id="fear_work" /></label>
+</div>
+
+</div><!--CLOSING ROW 2-->
+</div> <!--CLOSING CONTAINER DIV 2-->
+
+
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 3-->
+<h3> 3# Choose one word to describe yourself</h3>
+<div class="row"><!--OPENING ROW 3-->
+
+
+<!--BEGINNING BULLET POINTS-->
+	<div class="col-md-3">
+	<label for="word_wild">Wild, you can't guess what I am going to do next.<input class="button" type="radio" name="word" value="5" id="word_wild" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="word_hungry">Hungry, do you have any snacks on you?<input class="button" type="radio" name="word" value="30" id="word_hungry" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="word_sweet">Sweet, I'm a hugger!<input class="button" type="radio" name="word" value="20" id="word_sweet" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="word_large">Large, that elephant in the room? It's me.<input class="button" type="radio" name="word" value="10" id="word_large" /></label>
+</div>
+
+
+</div><!--CLOSING ROW 3-->
+</div> <!--CLOSING CONTAINER DIV 3-->
+
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 4-->
+<h3> 4# What is your favorite genre of movie?</h3>
+<div class="row"><!--OPENING ROW 4-->
+
+
+<!--BEGINNING BULLET POINTS-->
+	<div class="col-md-3">
+	<label for="movie_comedy">Comedy, I love to laugh!<input class="button" type="radio" name="movie" value="30" id="movie_comedy" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="movie_horror">Horror, I like terror.<input class="button" type="radio" name="movie" value="5" id="movie_horror" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="movie_action">Action, Marvel especially!<input class="button" type="radio" name="movie" value="10" id="movie_action" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="movie_romance">Romance, I love love!<input class="button" type="radio" name="movie" value="20" id="movie_romance" /></label>
+</div>
+
+
+
+</div><!--CLOSING ROW 4-->
+</div> <!--CLOSING CONTAINER DIV 4-->
+
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 5-->
+<h3> 5# Who are you in your friend group?</h3>
+<div class="row"><!--OPENING ROW 5-->
+
+
+<!--BEGINNING BULLET POINTS-->
+	<div class="col-md-3">
+	<label for="friend_trust">The trustworthy one<input class="button" type="radio" name="friend" value="20" id="friend_trust" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="friend_team">The team player<input class="button" type="radio" name="friend" value="30" id="friend_team" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="friend_shy">The shy one<input class="button" type="radio" name="friend" value="10" id="friend_shy" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="friend_party">The life of the party<input class="button" type="radio" name="friend" value="5" id="friend_party" /></label>
+</div>
+
+
+</div><!--CLOSING ROW 5-->
+</div> <!--CLOSING CONTAINER DIV 5-->
+
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 6-->
+<h3> 6# What is your favorite type of food?</h3>
+<div class="row"><!--OPENING ROW 6-->
+
+
+<!--BEGINNING BULLET POINTS-->
+<div class="col-md-3">
+	<label for="food_cheese">Anything with cheese<input class="button" type="radio" name="food" value="10" id="food_cheese" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="food_tequila">Does tequila count?<input class="button" type="radio" name="food" value="5" id="food_tequila" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="food_protein">I only eat protein<input class="button" type="radio" name="food" value="30" id="food_protein" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="food_chinese">Chinese food<input class="button" type="radio" name="food" value="20" id="food_chinese" /></label>
+</div>
+
+</div><!--CLOSING ROW 6-->
+</div> <!--CLOSING CONTAINER DIV 6-->
+
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 7-->
+<h3> 7# What is your deepest darkest secret?</h3>
+<div class="row"><!--OPENING ROW 7-->
+
+
+<!--BEGINNING BULLET POINTS-->
+<div class="col-md-3">
+		<label for="secret_kill">I killed a man<input class="button" type="radio" name="secret" value="5" id="secret_kill" /></label>
+</div>
+
+<div class="col-md-3">
+		<label for="secret_sleep">I eat where I sleep<input class="button" type="radio" name="secret" value="30" id="secret_sleep" /></label>
+</div>
+
+<div class="col-md-3">
+		<label for="secret_stalk">I have been arrested for stalking<input class="button" type="radio" name="secret" value="20" id="secret_stalk" /></label>
+</div>
+
+<div class="col-md-3">
+		<label for="secret_socio">I am a diagnosed sociopath<input class="button" type="radio" name="secret" value="10" id="secret_socio" /></label>
+</div>
+
+
+</div><!--CLOSING ROW 7-->
+</div> <!--CLOSING CONTAINER DIV 7-->
+
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 8-->
+<h3> 8# If you could go anywhere in the world, where would you go?</h3>
+<div class="row"><!--OPENING ROW 8-->
+
+
+<!--BEGINNING BULLET POINTS-->
+<div class="col-md-3">
+	<label for="world_china">China<input class="button" type="radio" name="world" value="20" id="world_china" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="world_nowhere">Nowhere, I'm staying put<input class="button" type="radio" name="world" value="30" id="world_nowhere" /></label>
+</div>
+
+<div class="col-md-3">
+<label for="world_antartica">Antartica<input class="button" type="radio" name="world" value="10" id="world_antartica" /></label>	
+</div>
+
+<div class="col-md-3">
+	<label for="world_ibiza">Ibiza<input class="button" type="radio" name="world" value="5" id="world_ibiza" /></label>
+</div>
+
+</div><!--CLOSING ROW 8-->
+</div> <!--CLOSING CONTAINER DIV 8-->
+
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 9-->
+<h3> 9# How happy are you on a scale of 1-4? (4 being the most happy)</h3>
+<div class="row"><!--OPENING ROW 9-->
+
+<!--BEGINNING BULLET POINTS-->
+<div class="col-md-3">
+	<label for="happy_one">10? Probably?<input class="button" type="radio" name="happy" value="30" id="happy_one" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="happy_two">2... thousand.<input class="button" type="radio" name="happy" value="20" id="happy_two" /></label>
+</div>
+
+<div class="col-md-3">
+<label for="happy_three">3!<input class="button" type="radio" name="happy" value="5" id="happy_three" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="happy_weak">Happiness is a weakness<input class="button" type="radio" name="happy" value="10" id="happy_weak" /></label>
+</div>
+
+</div><!--CLOSING ROW 9-->
+</div> <!--CLOSING CONTAINER DIV 9-->
+
+<div id="main" class="container"> <!--OPENING CONTAINER DIV 10-->
+<h3> 10# If you could be any animal, what would you be?</h3>
+<div class="row"><!--OPENING ROW 10-->
+
+<!--BEGINNING BULLET POINTS-->
+<div class="col-md-3">
+	<label for="animal_unicorn">A unicorn<input class="button" type="radio" name="animal" value="20" id="animal_unicorn" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="animal_tiger">A tiger!<input class="button" type="radio" name="animal" value="30" id="animal_tiger" /></label>
+</div>
+
+<div class="col-md-3">
+	<label for="animal_breed">A different breed<input class="button" type="radio" name="animal" value="5" id="animal_breed" /></label>
+</div>
+
+<div class="col-md-3">
+<label for="animal_sloth">A sloth<input class="button" type="radio" name="animal" value="10" id="animal_sloth" /></label>
+</div>
+
+
+
+</div><!--CLOSING ROW 10-->
+</div> <!--CLOSING CONTAINER DIV 10-->
+
+<div  id="main" class="container-fluid"><!--OPEN CON-->
+	<div class="row"><!--OPEN ROW-->
+		<div class="col-md-4"><!--OPEN COL-->
+		</div> <!--CLOSE COL-->
+		<div class="col-md-4"><!--OPEN COL-->
+			<button type="submit" value="submit">Submit</button>
+		</div> <!--CLOSE COL-->
+			<div class="col-md-4"><!--OPEN COL-->
+		</div> <!--CLOSE COL-->
+	</div><!--CLOSE ROW-->
+</div><!--CLOSE CON-->
+
+</form><!--CLOSING FORM TAG-->
+
+<div id="main" class="container-fluid">
+	<h1> Your animal is: </h1>
+  <p id="answer"></p>
+  <p id="answer2"></p>
+</div>
+
+
+
+
+
+
+
+<!--OPEN JAVASCRIPT-->
+<script>
+document.getElementById("form1").onsubmit=function(event) {
+	 event.preventDefault(); // Prevent form submission
+
+	 	if(document.querySelector('input[name = "day"]:checked') && 
+	 	document.querySelector('input[name = "fear"]:checked') &&
+	 	document.querySelector('input[name = "word"]:checked') &&
+	 	document.querySelector('input[name = "movie"]:checked') &&
+	 	document.querySelector('input[name = "friend"]:checked') &&
+	 	document.querySelector('input[name = "food"]:checked') &&
+	 	document.querySelector('input[name = "secret"]:checked') &&
+	 	document.querySelector('input[name = "world"]:checked') &&
+	 	document.querySelector('input[name = "happy"]:checked') &&
+	 	document.querySelector('input[name = "animal"]:checked')){
+
+       
+     day = parseInt(document.querySelector('input[name = "day"]:checked').value);
+     fear = parseInt(document.querySelector('input[name = "fear"]:checked').value);
+     word = parseInt(document.querySelector('input[name = "word"]:checked').value);
+     movie = parseInt(document.querySelector('input[name = "movie"]:checked').value);
+     friend = parseInt(document.querySelector('input[name = "friend"]:checked').value);
+     food = parseInt(document.querySelector('input[name = "food"]:checked').value);
+     secret = parseInt(document.querySelector('input[name = "secret"]:checked').value);
+     world = parseInt(document.querySelector('input[name = "world"]:checked').value);
+     happy = parseInt(document.querySelector('input[name = "happy"]:checked').value);
+     animal = parseInt(document.querySelector('input[name = "animal"]:checked').value);
+
+
+     total = day + fear + word + movie + friend + food + secret + world + happy + animal;
+     
+
+  //document.getElementById("answer").innerHTML = total; <!--COMMENT THIS OUT LATER-->
+
+  
+
+if(total <=50) { document.getElementById("answer2").innerHTML = "CONGRATULATIONS! You are the baby hippo, Moo Deng! You are the life of the party... and a little crazy. <img src='moo.jpg' class='img-fluid'/> Photo taken from Bangkok Post.";
+}
+
+if(total >50 && total <=100) { document.getElementById("answer2").innerHTML = "CONGRATULATIONS! You are the baby penguin, Pesto! You are chill and you mind your own business! <img src='pesto.jpg' class='img-fluid'/> Photo taken from Aol.";
+}
+
+if(total >100 && total <=200) { document.getElementById("answer2").innerHTML = "CONGRATULATIONS! You are the baby panda Fao Bao! You're a lover and a little bit clingy! Time for therapy! <img src='bao.jpg' class='img-fluid'/> Photo taken from CNN Travel.";
+} 
+
+if(total >200 && total <=300) {document.getElementById("answer2").innerHTML = "CONGRATULATIONS! You're the baby anteater! You are a team player and work best with others! <img src='ant.jpg' class='img-fluid'/> Photo taken from ctpost."; 
+
+}
+}
+
+  else {
+  alert("Oops! Missed one!");
+  }
+
+
+
+
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+</script><!--CLOSING SCRIPT-->
+
+
+
+</body>
+</html>
